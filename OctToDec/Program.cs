@@ -33,7 +33,7 @@ namespace OctToDec
                 nDecNum += (nOctalDight * nOctalPower);
                 nOctalPower *= 8;
             }
-            Console.WriteLine("The decenary equivalent of the octal number {0} is {1}", strLine, nDecNum);
+            Console.WriteLine("The decimal equivalent of the octal number {0} is {1}", strLine, nDecNum);
             Console.Read();
         }
     }
