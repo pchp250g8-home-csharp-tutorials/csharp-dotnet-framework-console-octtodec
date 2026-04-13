@@ -12,9 +12,9 @@ namespace OctToDec
         static void Main(string[] args)
         {
             const uint MAX_INT = uint.MaxValue;
-            var nDecNum = 0;
-            var nOctalPower = 1;
-            var nMaxOctalLen = Math.Truncate(Math.Log(MAX_INT, 8));
+            var nDecNum = 0L;
+            var nOctalPower = 1L;
+            var nMaxOctalLen = Math.Ceiling(Math.Log(MAX_INT, 8));
             var oRegEx = new Regex("^[0-7]+$");
             Console.WriteLine("Input a octal number");
             var strLine = Console.ReadLine();
