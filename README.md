@@ -1,4 +1,4 @@
-OctToDec. C# Tutorials. Simple Input/Output. Strings. Algorithms. DotNet FrameWork Platform. Console Application. 
+OctToDec. C# Tutorials. Simple Input/Output. Strings. Algorithms. DotNet FrameWork Platform. Console Application.
 A console application in the C# programming language. 
 The program does the following:
   1. Asks the user to enter a string.
